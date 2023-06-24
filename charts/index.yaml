@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  base:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-24T20:19:25.6968401+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 9144ecebd53739a764632eab356448fcc6b3faaa09c4a800668b709d03732303
+    name: base
+    type: application
+    urls:
+    - base-0.1.0.tgz
+    version: 0.1.0
+  brandycrusta:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-06-24T20:19:25.7048176+07:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.11.2
+    description: A Helm chart for Kubernetes
+    digest: 2b923417278a9a4d8e175512a631937dafcee60fbf6650e88abd8ddcade779c7
+    name: brandycrusta
+    type: application
+    urls:
+    - brandycrusta-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-24T20:19:25.6911779+07:00"
